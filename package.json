@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel ./src/*.html",
     "build": "parcel build ./src/*.html --public-url /parcel-with-gh-pages/",
-    "deploy": "gh-pages -d dist"
+    "deploy": "parcel build ./src/*.html --public-url /parcel-with-gh-pages/ && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
