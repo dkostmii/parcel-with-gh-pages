@@ -1,0 +1,2 @@
+let e=0;function t(){e++,function(){const t=document.getElementsByClassName("counter")[0];if(t){const n=t.querySelector("label");n&&(n.innerHTML=e.toString())}}()}!function(){const n=document.getElementsByClassName("counter")[0];if(n){const o=n.querySelector("label");o&&(o.innerHTML=e.toString());const c=n.querySelector("button");c&&c.addEventListener("click",t)}}();
+//# sourceMappingURL=counter.5a5928b7.js.map
